@@ -301,7 +301,18 @@ export default function Home() {
           <FeatureSection />
         </div>
 
-       <div id="experience"> <WobbleCardDemo /></div>
+        <div id="experience" className="w-full bg-transparent space-y-20">
+          {" "}
+          <div className="sticky -top-80 pt-10 md:pt-12 pb-4 bg-white dark:bg-black z-10">
+            <p className="relative bg-gradient-to-b from-neutral-200 to-neutral-500 bg-clip-text text-4xl md:text-7xl font-bold text-transparent text-center">
+            Experience
+            </p>
+            <p className="text-base max-w-2xl mt-4 text-neutral-500 font-normal dark:text-neutral-300 text-center mx-auto">
+              Experience the completely new way to manage your properties, seen never before.
+            </p>
+          </div>
+          <WobbleCardDemo />
+        </div>
         <div className="w-full mt-10  md:mt-30 relative">
           <InfiniteScrollingLogosAnimation />
         </div>
