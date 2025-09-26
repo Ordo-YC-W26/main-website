@@ -96,7 +96,7 @@ export function PrivacyPageClient() {
           </div>
         </div>
       </main>
-      <div className="md:-z-10 bg-white flex flex-col items-center justify-center relative w-full gap-8 dark:hidden mt-[70em] md:-mt-[10em]">
+      <div className=" bg-white flex flex-col items-center justify-center relative w-full gap-8 dark:hidden mt-[70em] md:-mt-[1px]">
         <Footer />
       </div>
     </>

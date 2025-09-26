@@ -74,7 +74,7 @@ export function TermsPageClient() {
           </MobileNavMenu>
         </MobileNav>
       </Navbar>
-      <div className="w-full -z-10 relative mt-15 md:-mt-80 display:flex flex-col items-center justify-between">
+      <div className="w-full relative mt-15 md:-mt-80 flex flex-col items-center justify-between">
         <main className="px-6 py-16 bg-white text-slate-900 dark:bg-black dark:text-white my-20 md:my-40 h-[10vh]">
           <div className="max-w-3xl mx-auto py-12 px-6 lg:mt-50 md:mt-50">
             <h1 className="text-4xl md:text-5xl font-bold bg-clip-text text-transparent bg-gradient-to-b from-neutral-800 to-neutral-500 dark:from-neutral-200 dark:to-neutral-400">
@@ -199,7 +199,7 @@ export function TermsPageClient() {
           </div>
         </main>
 
-        <div className="md:-z-10 bg-white flex flex-col items-center justify-center relative w-full gap-8 dark:hidden mt-[160em] md:mt-[70em]">
+        <div className="bg-white flex flex-col items-center justify-center relative w-full gap-8 dark:hidden mt-[160em] md:mt-[110em]">
           <Footer />
         </div>
       </div>

@@ -165,7 +165,7 @@ export function AboutPageClient() {
           </div>
         </div>
       </main>
-      <div className="md:-z-10 bg-white flex flex-col items-center justify-center relative w-full gap-8 dark:hidden mt-[175em] md:mt-[50em]">
+      <div className="bg-white flex flex-col items-center justify-center relative w-full gap-8 dark:hidden mt-[175em] md:mt-[50em]">
         <Footer />
       </div>
     </>

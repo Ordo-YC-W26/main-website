@@ -38,8 +38,8 @@ export function WobbleCardDemo() {
       </WobbleCard>
       <WobbleCard containerClassName="col-span-1 lg:col-span-3 bg-sky-200 min-h-[500px] lg:min-h-[600px] xl:min-h-[300px]">
         <div className="max-w-sm">
-          <h2 className="max-w-sm md:max-w-lg  text-left text-balance text-base md:text-xl lg:text-3xl font-semibold tracking-[-0.015em] text-slate-500">
-            Your Always-On AI Assistant
+          <h2 className="max-w-sm md:max-w-lg  text-left text-balance text-base md:text-xl lg:text-3xl font-semibold tracking-[-0.015em] text-slate-700">
+            Your Personal Assistant
           </h2>
           <p className="mt-4 max-w-[26rem] text-left  text-base/6 text-slate-600">
           Stay on top of everything From handling maintenance, tenant requests to generating accounting reports and sourcing vendors, just ask, and it gets done fast, accurate, and effortless.

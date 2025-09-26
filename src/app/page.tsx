@@ -22,17 +22,17 @@ import Pet from "../../public/Pet.svg";
 const FeatureSection = () => {
   const features = [
     {
-      title: "Pet Management",
+      title: "Pet Screening",
       description:
-        "Comprehensive pet policy enforcement and management for your properties.",
+        "AI Scheduler that verifies vaccination records and communicates with vets, reducing delays",
       image: Pet.src,
       width: 700,
       height: 400,
     },
     {
-      title: "Invoice Management",
+      title: "Smart Invoice processing",
       description:
-        "Automatically process, categorize, and manage all your invoices with AI-powered accuracy.",
+        "Track payments made with your business card, instantly process invoices, or just text us a photo of any bill and our AI handles the rest.",
       image: Invoice.src,
       width: 500,
       height: 300,
@@ -40,16 +40,16 @@ const FeatureSection = () => {
     {
       title: "Maintenance Scheduling",
       description:
-        "Smart scheduling and predictive maintenance to keep your properties in perfect condition.",
+        "Smart scheduling, predictive maintenance and vendor sourcing to keep your properties in perfect condition.",
       image: Maintenance.src,
       width: 500,
       height: 300,
     },
 
     {
-      title: "Social Integration",
+      title: "Communication Integration",
       description:
-        "Seamlessly connect with tenants and manage community engagement through integrated social features.",
+        "Ordo unifies emails, messages, and chats, tracking unanswered items to streamline tenant engagement",
       image: Social.src,
       width: 500,
       height: 300,
@@ -336,7 +336,7 @@ export default function Home() {
           </div>
         </div>
 
-        <div className="md:-z-10 mt-30 md:-mt-80 bg-white flex flex-col items-center justify-center relative w-full gap-8 dark:hidden">
+        <div className="mt-30 md:-mt-80 bg-white flex flex-col items-center justify-center relative w-full gap-8 dark:hidden">
           <div className="w-full block dark:hidden">
             <Footer />
           </div>

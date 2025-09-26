@@ -1,7 +1,7 @@
 "use client";
 
 import Link from "next/link";
-import { IconBrandGithub, IconBrandLinkedin, IconBrandX, IconMail } from "@tabler/icons-react";
+import { IconMail } from "@tabler/icons-react";
 import { useRouter } from "next/navigation";
 import FooterImage from "../../../public/footer-sketch.svg";
 import LogoImage from "../../../public/logo.png";
@@ -11,8 +11,8 @@ export function Footer() {
   return (
     <footer className="bg-white dark:border-neutral-800 dark:bg-transparent relative">
       <div className="relative w-full">
-        <img src={FooterImage.src} alt="ordo" className="w-full h-auto object-contain opacity-30" />
-        <div className="absolute inset-x-0 bottom-0 w-full flex justify-center">
+        <img src={FooterImage.src} alt="ordo" aria-hidden="true" className="w-full h-auto object-contain opacity-30 pointer-events-none select-none" />
+        <div className="absolute inset-x-0 bottom-0 w-full flex justify-center z-10">
           <div className="w-full max-w-7xl px-6 py-12">
             <div className="grid grid-cols-1 gap-10 md:grid-cols-4">
               <div className="md:col-span-1">
@@ -21,7 +21,8 @@ export function Footer() {
                   <span className="text-lg font-semibold text-black dark:text-white">ordo</span>
                 </div>
                 <p className="mt-4 max-w-sm text-sm text-neutral-600 dark:text-neutral-400">
-                  Building fast and smart AI experiences for individuals and businesses.
+                Designed to empower, not to replace - Get your personal AI assistant 
+                .
                 </p>
                 <div className="mt-6 flex items-center gap-4">
                   {/* <Link href="https://github.com/ordoai" aria-label="GitHub" className="text-neutral-600 hover:text-black dark:text-neutral-400 dark:hover:text-white">
@@ -40,7 +41,7 @@ export function Footer() {
                 <h4 className="text-sm font-semibold text-black dark:text-white">Product</h4>
                 <ul className="mt-4 space-y-3 text-sm">
                   <li><Link href="/#features" className="text-neutral-600 hover:text-black dark:text-neutral-400 dark:hover:text-white">Features</Link></li>
-                  <li><Link href="/#pricing" className="text-neutral-600 hover:text-black dark:text-neutral-400 dark:hover:text-white">Pricing</Link></li>
+                  {/* <li><Link href="/#pricing" className="text-neutral-600 hover:text-black dark:text-neutral-400 dark:hover:text-white">Pricing</Link></li> */}
                   <li><Link href="/#experience" className="text-neutral-600 hover:text-black dark:text-neutral-400 dark:hover:text-white">Experience</Link></li>
                 </ul>
               </div>
