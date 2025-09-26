@@ -168,7 +168,6 @@ import {
   ModalContent,
 } from "@/components/ui/animated-modal";
 import { ContactSalesForm } from "@/components/ui/forms";
-import { Agents } from "@/components/agents";
 import { HeroScrollDemo } from "@/components/container-scroll";
 import InfiniteScrollingLogosAnimation from "@/components/ui/infinite-logo";
 import { ContactUsForm } from "@/components/ui/forms";

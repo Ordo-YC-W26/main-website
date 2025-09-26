@@ -18,7 +18,7 @@ const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || "https://ordospaces.com";
 export const metadata: Metadata = {
   metadataBase: new URL(siteUrl),
   title: {
-    default: "Ordo — AI-Powered Property Management OS",
+    default: "Ordo | AI-Powered Property Management OS",
     template: "%s | Ordo",
   },
   description:
