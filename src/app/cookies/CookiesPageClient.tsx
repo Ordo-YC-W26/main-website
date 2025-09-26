@@ -25,11 +25,22 @@ import { StarsBackground } from "@/components/ui/stars-background";
 
 export function CookiesPageClient() {
   const navItems = [
-    { name: "Features", link: "/#features" },
-    { name: "Pricing", link: "/#pricing" },
-    { name: "Experience", link: "/#experience" },
-    { name: "Blogs", link: "/blog" },
-    { name: "About", link: "/about" },
+    {
+      name: "Features",
+      link: "/#features",
+    },
+    {
+      name: "Blogs",
+      link: "/blog",
+    },
+    {
+      name: "Contact",
+      link: "/#contact",
+    },
+    {
+      name: "About",
+      link: "/about",
+    },
   ];
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
   return (

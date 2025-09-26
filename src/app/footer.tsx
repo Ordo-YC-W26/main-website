@@ -24,12 +24,6 @@ export function Footer() {
                   Building fast and smart AI experiences for individuals and businesses.
                 </p>
                 <div className="mt-6 flex items-center gap-4">
-                  {/* <Link href="https://github.com/ordoai" aria-label="GitHub" className="text-neutral-600 hover:text-black dark:text-neutral-400 dark:hover:text-white">
-                    <IconBrandGithub size={20} />
-                  </Link>
-                  <Link href="https://www.linkedin.com/company/ordoai" aria-label="LinkedIn" className="text-neutral-600 hover:text-black dark:text-neutral-400 dark:hover:text-white">
-                    <IconBrandLinkedin size={20} />
-                  </Link> */}
                   <Link href="mailto:support@ordospaces.com" aria-label="Email" className="text-neutral-600 hover:text-black dark:text-neutral-400 dark:hover:text-white">
                     <IconMail size={20} />
                   </Link>
@@ -49,7 +43,7 @@ export function Footer() {
                 <h4 className="text-sm font-semibold text-black dark:text-white">Company</h4>
                 <ul className="mt-4 space-y-3 text-sm">
                   <li><Link href="/about" className="text-neutral-600 hover:text-black dark:text-neutral-400 dark:hover:text-white cursor-pointer">About</Link></li>
-                  {/* <li><Link href="/blog" className="text-neutral-600 hover:text-black dark:text-neutral-400 dark:hover:text-white cursor-pointer">Blog</Link></li> */}
+                  <li><Link href="/blog" className="text-neutral-600 hover:text-black dark:text-neutral-400 dark:hover:text-white cursor-pointer">Blog</Link></li>
                   <li><Link href="/manifesto" className="text-neutral-600 hover:text-black dark:text-neutral-400 dark:hover:text-white cursor-pointer">Manifesto</Link></li>
                 </ul>
               </div>

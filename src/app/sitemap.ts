@@ -1,11 +1,10 @@
 import type { MetadataRoute } from "next";
 
 export default function sitemap(): MetadataRoute.Sitemap {
-  const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || "https://ordo.ai";
+  const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || "https://ordospaces.com";
   const routes: string[] = [
     "/",
     "/about",
-    "/blog",
     "/privacy",
     "/terms",
     "/cookies",

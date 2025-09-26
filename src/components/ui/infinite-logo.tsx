@@ -5,10 +5,6 @@ const CompanyLogoData = [
   { src: "https://www.outsourcinghubindia.com/wp-content/uploads/2021/03/entrata-logo.png", alt: 'Entrata Logo' },
   { src: "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fd/AppFolio%2C_Inc._Wordmark%2C_2021.svg/2560px-AppFolio%2C_Inc._Wordmark%2C_2021.svg.png", alt: 'AppFolio Logo' },
   { src: "https://images.saasworthy.com/realpageonesite_11063_logo_1653561567_b8xmv.svg", alt: 'RealPage Logo' },
-  { src: "https://www.citypng.com/public/uploads/preview/hd-official-whatsapp-wa-whats-app-square-logo-icon-png-image-701751694789353fmmfwzftvc.png", alt: 'WhatsApp Logo' },
-  { src: "https://support.apple.com/content/dam/edam/applecare/images/en_US/psp_heros/mini-hero-messages.png", alt: 'iMessage Logo' },
-  { src: "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f7/Microsoft_Outlook_2013-2019_logo.svg/507px-Microsoft_Outlook_2013-2019_logo.svg.png", alt: 'Outlook Logo' },
-  { src: "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7e/Gmail_icon_%282020%29.svg/1280px-Gmail_icon_%282020%29.svg.png", alt: 'Gmail Logo' },
 ];
 
 const InfiniteScrollingLogosAnimation = () => {
@@ -27,7 +23,7 @@ const InfiniteScrollingLogosAnimation = () => {
                     key={alt}
                     src={src}
                     alt={alt}
-                    className="h-10 w-auto flex-none filter grayscale opacity-70 hover:grayscale-0 hover:opacity-100 transition-all duration-300"
+                    className="h-10 w-auto flex-none filter opacity-70 hover:grayscale-0 hover:opacity-100 transition-all duration-300"
                   />
                 ))}
               </React.Fragment>

@@ -132,7 +132,7 @@ Are you ready to step into the next chapter of buying and selling?
 
 ---
 
-*Discover more at [ordo.ai](https://ordo.ai)*
+*Discover more at [ordospaces.com](https://ordospaces.com)*
 *Contact us for private beta access and business integrations.*`,
   },
   "introducing-ordo-agents": {
@@ -174,7 +174,7 @@ Whether you're a casual user wanting smarter search or a business seeking scalab
 
 Experience the future of marketplace automation. Build and deploy your first ordo Agent in seconds and unlock new levels of efficiency and growth.
 
-**Visit [ordo.ai](https://ordo.ai) to learn more and request early access.**`,
+**Visit [ordospaces.com](https://ordospaces.com) to learn more and request early access.**`,
   },
 };
 

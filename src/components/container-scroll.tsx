@@ -1,7 +1,7 @@
 "use client";
 import React from "react";
 import { ContainerScroll } from "@/components/ui/container-scroll-animation";
-import AssistantImage from "../assets/assistant.svg";
+import AssistantImage from "../../public/assistant.svg";
 
 export function HeroScrollDemo() {
   return (
