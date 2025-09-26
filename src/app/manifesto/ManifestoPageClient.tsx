@@ -11,13 +11,6 @@ import {
   MobileNavToggle,
   MobileNavMenu,
 } from "@/components/ui/resizable-navbar";
-import {
-  Modal,
-  ModalTrigger,
-  ModalBody,
-  ModalContent,
-} from "@/components/ui/animated-modal";
-import { BetaSignupForm } from "@/components/ui/forms";
 import { Footer } from "@/components/ui/footer";
 import { useState } from "react";
 
@@ -97,13 +90,13 @@ export function ManifestoPageClient() {
             hundreds of properties effortlessly.
             <br />
             <br />
-            <p className="font-bold my-4"> This isn’t just software</p>
+            <p className="font-bold"> This isn’t just software</p>
             <br />
             This is a movement to redefine property management making it faster,
             smarter, and truly effortless.
             <br />
             <br />
-            <p className="font-bold my-4"> We are Ordo</p>
+            <p className="font-bold"> We are Ordo</p>
             <br />
             And we’re building the future where property managers finally take
             back their time.
