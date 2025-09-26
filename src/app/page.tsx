@@ -335,7 +335,7 @@ export default function Home() {
           </div>
         </div>
 
-        <div className="mt-30 md:-mt-80 bg-white flex flex-col items-center justify-center relative w-full gap-8 dark:hidden">
+        <div className="mt-30 md:mt-50 bg-white flex flex-col items-center justify-center relative w-full gap-8 dark:hidden">
           <div className="w-full block dark:hidden">
             <Footer />
           </div>
