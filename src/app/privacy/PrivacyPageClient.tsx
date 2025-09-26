@@ -17,7 +17,6 @@ import {
   ModalBody,
   ModalContent,
 } from "@/components/ui/animated-modal";
-import { BetaSignupForm } from "@/components/ui/forms";
 import { Footer } from "@/components/ui/footer";
 import { useState } from "react";
 
