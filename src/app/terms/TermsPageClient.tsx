@@ -199,7 +199,7 @@ export function TermsPageClient() {
           </div>
         </main>
 
-        <div className="md:-z-10 bg-white flex flex-col items-center justify-center relative w-full gap-8 dark:hidden mt-[100em] md:mt-[70em]">
+        <div className="md:-z-10 bg-white flex flex-col items-center justify-center relative w-full gap-8 dark:hidden mt-[160em] md:mt-[70em]">
           <Footer />
         </div>
       </div>
