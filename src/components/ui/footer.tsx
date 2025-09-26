@@ -11,27 +11,27 @@ export function Footer() {
   return (
     <footer className="bg-white dark:border-neutral-800 dark:bg-transparent relative">
       <div className="relative w-full">
-        <img src={FooterImage.src} alt="ordo" aria-hidden="true" className="w-full h-auto object-contain opacity-30 pointer-events-none select-none" />
+        <img src={FooterImage.src} alt="Ordo" aria-hidden="true" className="w-full h-auto object-contain opacity-30 pointer-events-none select-none" />
         <div className="absolute inset-x-0 bottom-0 w-full flex justify-center z-10">
           <div className="w-full max-w-7xl px-6 py-12">
             <div className="grid grid-cols-1 gap-10 md:grid-cols-4">
               <div className="md:col-span-1">
                 <div className="flex items-center gap-3" onClick={() => router.push("/")}>
-                  <img src={LogoImage.src} alt="ordo" width={50} height={50} className="" />
-                  <span className="text-lg font-semibold text-black dark:text-white">ordo</span>
+                  <img src={LogoImage.src} alt="Ordo" width={50} height={50} className="" />
+                  <span className="text-lg font-semibold text-black dark:text-white">Ordo</span>
                 </div>
                 <p className="mt-4 max-w-sm text-sm text-neutral-600 dark:text-neutral-400">
                 Designed to empower, not to replace - Get your personal AI assistant 
                 .
                 </p>
                 <div className="mt-6 flex items-center gap-4">
-                  {/* <Link href="https://github.com/ordoai" aria-label="GitHub" className="text-neutral-600 hover:text-black dark:text-neutral-400 dark:hover:text-white">
+                  {/* <Link href="https://github.com/Ordoai" aria-label="GitHub" className="text-neutral-600 hover:text-black dark:text-neutral-400 dark:hover:text-white">
                     <IconBrandGithub size={20} />
                   </Link>
-                  <Link href="https://www.linkedin.com/company/ordoai" aria-label="LinkedIn" className="text-neutral-600 hover:text-black dark:text-neutral-400 dark:hover:text-white">
+                  <Link href="https://www.linkedin.com/company/Ordoai" aria-label="LinkedIn" className="text-neutral-600 hover:text-black dark:text-neutral-400 dark:hover:text-white">
                     <IconBrandLinkedin size={20} />
                   </Link> */}
-                  <Link href="mailto:support@ordospaces.com" aria-label="Email" className="text-neutral-600 hover:text-black dark:text-neutral-400 dark:hover:text-white">
+                  <Link href="mailto:support@Ordospaces.com" aria-label="Email" className="text-neutral-600 hover:text-black dark:text-neutral-400 dark:hover:text-white">
                     <IconMail size={20} />
                   </Link>
                 </div>
@@ -67,7 +67,7 @@ export function Footer() {
 
             <div className="mt-12 border-t border-neutral-200 pt-8 dark:border-neutral-800">
               <div className="flex flex-col items-center justify-between gap-4 md:flex-row">
-                <p className="text-xs text-neutral-500 dark:text-neutral-400">© 2025 ordo. All rights reserved.</p>
+                <p className="text-xs text-neutral-500 dark:text-neutral-400">© 2025 Ordo. All rights reserved.</p>
                 <div className="flex items-center gap-6 text-xs">
                   <Link href="/terms" className="text-neutral-500 hover:text-black dark:text-neutral-400 dark:hover:text-white cursor-pointer">Terms</Link>
                   <Link href="/privacy" className="text-neutral-500 hover:text-black dark:text-neutral-400 dark:hover:text-white cursor-pointer">Privacy</Link>

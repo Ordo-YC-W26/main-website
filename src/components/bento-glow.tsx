@@ -17,7 +17,7 @@ export function BentoGridGlow() {
         area="md:[grid-area:1/7/2/13] xl:[grid-area:2/1/3/5]"
         icon={<IconSettings className="h-4 w-4 text-black dark:text-neutral-400" />}
         title="Your settings, your rules. Your agents."
-        description="From notifications to workflow automations, configure your Muvius experience exactly how you want it. You’re in control — we just make it easy."
+        description="From notifications to workflow automations, configure your Muvius experience exactly how you want it. You’re in control we just make it easy."
       />
 
       <GridItem
@@ -38,7 +38,7 @@ export function BentoGridGlow() {
         area="md:[grid-area:3/1/4/13] xl:[grid-area:2/8/3/13]"
         icon={<IconSearch className="h-4 w-4 text-black dark:text-neutral-400" />}
         title="Find exactly what you’re looking for"
-        description="ordo’s smart search isn’t just fast, it’s personal. Your Muvius agent learns your preferences and brings the right matches to you before you even think to ask."
+        description="Ordo’s smart search isn’t just fast, it’s personal. Your Muvius agent learns your preferences and brings the right matches to you before you even think to ask."
       />
     </ul>
   );

@@ -79,7 +79,7 @@ export function PrivacyPageClient() {
             Privacy
           </h1>
           <p className="mt-6 leading-8 text-neutral-700 dark:text-neutral-300">
-          We take privacy seriously — because your data is yours. ordo uses
+          We take privacy seriously, because your data is yours. Ordo uses
             enterprise-grade encryption, secure authentication, and strict
             access controls to protect your information. We do not sell your
             personal data to third parties. Our Privacy Policy details how we
@@ -96,7 +96,7 @@ export function PrivacyPageClient() {
           </div>
         </div>
       </main>
-      <div className=" bg-white flex flex-col items-center justify-center relative w-full gap-8 dark:hidden mt-[70em] md:-mt-[1px]">
+      <div className=" bg-white flex flex-col items-center justify-center relative w-full gap-8 dark:hidden mt-[70em] md:mt-[20em]">
         <Footer />
       </div>
     </>

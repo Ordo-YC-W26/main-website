@@ -4,9 +4,9 @@ import { TermsPageClient } from "@/app/terms/TermsPageClient";
 
 
 export const metadata: Metadata = {
-  title: "Terms of Service — Rules for using ordo",
+  title: "Terms of Service | Rules for using Ordo",
   description:
-    "Review ordo's Terms of Service, including acceptable use, account responsibilities, and service limitations.",
+    "Review Ordo's Terms of Service, including acceptable use, account responsibilities, and service limitations.",
   alternates: { canonical: "/terms" },
 };
 

@@ -2,9 +2,9 @@ import type { Metadata } from "next";
 import { AboutPageClient } from "@/app/about/AboutPageClient";
 
 export const metadata: Metadata = {
-  title: "About ordo — Our mission and the team behind it",
+  title: "About Ordo | Our mission and the team behind it",
   description:
-    "Learn about ordo's mission to build the world's first AI-powered property management platform and the principles guiding our work.",
+    "Learn about Ordo's mission to build the world's first AI-powered property management platform and the principles guiding our work.",
   alternates: { canonical: "/about" },
 };
 

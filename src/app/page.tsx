@@ -142,7 +142,7 @@ const ParallaxSection = () => {
       >
         <img
           src={AppImage.src}
-          alt="ordo"
+          alt="Ordo"
           className="w-full h-full object-cover transform-gpu"
         />
       </motion.div>
@@ -212,8 +212,8 @@ export default function Home() {
           __html: JSON.stringify({
             "@context": "https://schema.org",
             "@type": "Organization",
-            name: "ordo",
-            url: process.env.NEXT_PUBLIC_SITE_URL || "https://ordospaces.com",
+            name: "Ordo",
+            url: process.env.NEXT_PUBLIC_SITE_URL || "https://Ordospaces.com",
             logo: "/logo.png",
             sameAs: ["https://twitter.com/", "https://www.linkedin.com/"],
           }),
@@ -280,7 +280,7 @@ export default function Home() {
             </div>
             <img
               src={HomeImage.src}
-              alt="ordo"
+              alt="Ordo"
               className="w-full h-full object-fit md:mt-10 lg:mt-1 mt-30"
             />
           </div>
@@ -288,7 +288,7 @@ export default function Home() {
         <ParallaxSection />
         <img
           src={AppImage.src}
-          alt="ordo"
+          alt="Ordo"
           className="w-full h-full object-fit transform-gpu block md:hidden mt-10"
         />
         <HeroScrollDemo />

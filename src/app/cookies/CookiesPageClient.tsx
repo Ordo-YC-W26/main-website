@@ -80,7 +80,7 @@ export function CookiesPageClient() {
             Cookies
           </h1>
           <p className="mt-6 leading-8 text-neutral-700 dark:text-neutral-300">
-            ordo uses cookies and similar technologies to improve performance,
+            Ordo uses cookies and similar technologies to improve performance,
             enhance security, and tailor your experience. Essential cookies keep
             the platform running, while analytics cookies help us understand and
             improve user journeys. You can manage or disable cookies at any time
@@ -97,7 +97,7 @@ export function CookiesPageClient() {
           </div>
         </div>
       </main>
-      <div className="bg-white flex flex-col items-center justify-center relative w-full gap-8 dark:hidden mt-[70em] md:-mt-[1px]">
+      <div className="bg-white flex flex-col items-center justify-center relative w-full gap-8 dark:hidden mt-[70em] md:mt-[20em]">
       <Footer />
         </div>
     </>

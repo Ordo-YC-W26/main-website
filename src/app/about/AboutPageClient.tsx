@@ -91,7 +91,7 @@ export function AboutPageClient() {
             countless emails, calls, and spreadsheets.
           </p>
           <h2 className="mt-4 leading-8 text-neutral-700 dark:text-neutral-300 font-bold text-3xl">
-            We decided to change that.
+            We decided to change that
           </h2>
           <p className="mt-4 leading-8 text-neutral-700 dark:text-neutral-300">
             Ordo brings AI-powered automation to the heart of property
@@ -165,7 +165,7 @@ export function AboutPageClient() {
           </div>
         </div>
       </main>
-      <div className="bg-white flex flex-col items-center justify-center relative w-full gap-8 dark:hidden mt-[175em] md:mt-[50em]">
+      <div className="bg-white flex flex-col items-center justify-center relative w-full gap-8 dark:hidden mt-[175em] md:mt-[80em]">
         <Footer />
       </div>
     </>

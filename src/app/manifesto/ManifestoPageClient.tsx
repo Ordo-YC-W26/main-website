@@ -77,7 +77,7 @@ export function ManifestoPageClient() {
       <main className="px-6 py-16 bg-white text-slate-900 dark:bg-black dark:text-white my-20 md:my-40 h-[10vh]">
         <div className="max-w-3xl mx-auto">
           <h1 className="text-4xl md:text-5xl font-bold bg-clip-text text-transparent bg-gradient-to-b from-neutral-800 to-neutral-500 dark:from-neutral-200 dark:to-neutral-400">
-            The Ordo Manifesto
+            Ordo Manifesto
           </h1>
           <div className="mt-6 leading-8 text-neutral-700 dark:text-neutral-300 space-y-4">
             At Ordo, we believe property managers deserve better. <br />
@@ -86,7 +86,7 @@ export function ManifestoPageClient() {
             processes, fragmented tools, and repetitive work slowing growth,
             increasing stress, and keeping managers from what truly matters:
             creating value.{" "}
-            <p className="font-bold my-4">We exist to change that.</p> We are
+            <p className="font-bold my-4">We exist to change that</p> We are
             the{" "}
             <b>
               first in the world to deliver a fully automated, AI-powered
@@ -97,13 +97,13 @@ export function ManifestoPageClient() {
             hundreds of properties effortlessly.
             <br />
             <br />
-            This isn’t just software.
+            <p className="font-bold my-4"> This isn’t just software</p>
             <br />
             This is a movement to redefine property management making it faster,
             smarter, and truly effortless.
             <br />
             <br />
-            We are Ordo.
+            <p className="font-bold my-4"> We are Ordo</p>
             <br />
             And we’re building the future where property managers finally take
             back their time.

@@ -13,7 +13,7 @@ const geistMono = Geist_Mono({
   subsets: ["latin"],
 });
 
-const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || "https://ordospaces.com";
+const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || "https://Ordospaces.com";
 
 export const metadata: Metadata = {
   metadataBase: new URL(siteUrl),
@@ -42,7 +42,7 @@ export const metadata: Metadata = {
     type: "website",
     url: siteUrl,
     siteName: "Ordo",
-    title: "Ordo — AI-Powered Property Management",
+    title: "Ordo | AI-Powered Property Management",
     description:
       "Automate property management tasks, reduce manual work, and scale operations with Ordo’s AI-powered platform.",
     images: [
@@ -57,11 +57,11 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Ordo — AI-Powered Property Management",
+    title: "Ordo | AI-Powered Property Management",
     description:
-      "Revolutionizing property management with AI automation — from tenant communications to maintenance scheduling.",
+      "Revolutionizing property management with AI automation from tenant communications to maintenance scheduling.",
     images: ["/logo.png"],
-    creator: "@ordo",
+    creator: "@Ordo",
   },
   robots: {
     index: true,
@@ -112,8 +112,8 @@ export default function RootLayout({
                 "url": siteUrl,
                 "logo": `${siteUrl}/logo.png`,
                 "sameAs": [
-                  "https://twitter.com/ordo",
-                  "https://www.linkedin.com/company/ordo"
+                  "https://twitter.com/Ordo",
+                  "https://www.linkedin.com/company/Ordo"
                 ]
               }
             ]

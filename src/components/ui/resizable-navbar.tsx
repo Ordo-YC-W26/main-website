@@ -237,7 +237,7 @@ export const NavbarLogo = () => {
     >
       <img src={LogoImage.src} alt="logo" width={40} height={40} />
       <span className="text-black dark:text-white font-bold text-2xl">
-        ordo
+        Ordo
       </span>
     </a>
   );
