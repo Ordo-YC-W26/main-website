@@ -183,11 +183,7 @@ export default function Home() {
     },
     {
       name: "Experience",
-      link: "/#features",
-    },
-    {
-      name: "Blogs",
-      link: "/blog",
+      link: "/#experience",
     },
     {
       name: "Contact",
@@ -265,7 +261,7 @@ export default function Home() {
           <div className="flex flex-col items-center relative md:mt-50 lg:mt-60 mt-30">
             <div className="flex justify-center space-y-6 pt-20 lg:pt-0 px-10 md:px-10 w-full">
               <div className="space-y-8 text-center max-w-5xl">
-                <h1 className="text-3xl md:text-4xl lg:text-6xl font-bold text-gray-500">
+                <h1 className="text-4xl md:text-4xl lg:text-6xl font-bold text-gray-500">
                   <span className="">
                     {" "}
                     First ever{" "}
@@ -305,7 +301,7 @@ export default function Home() {
           <FeatureSection />
         </div>
 
-        <WobbleCardDemo />
+       <div id="experience"> <WobbleCardDemo /></div>
         <div className="w-full mt-10  md:mt-30 relative">
           <InfiniteScrollingLogosAnimation />
         </div>
@@ -329,7 +325,7 @@ export default function Home() {
           </div>
         </div>
 
-        <div className="md:-z-10 min-h-[36rem] md:h-[36rem] bg-white flex flex-col items-center justify-center relative w-full gap-8 dark:hidden">
+        <div className="md:-z-10 mt-30 md:-mt-80 bg-white flex flex-col items-center justify-center relative w-full gap-8 dark:hidden">
           <div className="w-full block dark:hidden">
             <Footer />
           </div>

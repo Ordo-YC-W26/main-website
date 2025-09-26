@@ -20,8 +20,6 @@ import {
 import { BetaSignupForm } from "@/components/ui/forms";
 import { Footer } from "@/components/ui/footer";
 import { useState } from "react";
-import { ShootingStars } from "@/components/ui/shooting-stars";
-import { StarsBackground } from "@/components/ui/stars-background";
 
 export function ManifestoPageClient() {
   const navItems = [
@@ -32,10 +30,6 @@ export function ManifestoPageClient() {
     {
       name: "Experience",
       link: "/#experience",
-    },
-    {
-      name: "Blogs",
-      link: "/blog",
     },
     {
       name: "Contact",
@@ -53,26 +47,6 @@ export function ManifestoPageClient() {
         <NavBody>
           <NavbarLogo />
           <NavItems items={navItems} />
-          <div className="flex items-center gap-3">
-            <Modal>
-              <ModalTrigger>
-                <NavbarButton variant="primary">Join Beta</NavbarButton>
-              </ModalTrigger>
-              <ModalBody>
-                <ModalContent>
-                  <h3 className="text-xl font-semibold text-black dark:text-white">
-                    Join the private beta
-                  </h3>
-                  <p className="mt-1 text-sm text-neutral-600 dark:text-neutral-400">
-                    Enter your details below and we’ll notify you.
-                  </p>
-                  <div className="mt-6">
-                    <BetaSignupForm />
-                  </div>
-                </ModalContent>
-              </ModalBody>
-            </Modal>
-          </div>
         </NavBody>
         <MobileNav>
           <MobileNavHeader>
@@ -97,30 +71,6 @@ export function ManifestoPageClient() {
                 <span className="block">{item.name}</span>
               </a>
             ))}
-            <div className="flex w/full items-center justify_between gap-4">
-              <div className="flex w/full flex-col gap-4">
-                <Modal>
-                  <ModalTrigger className="w/full">
-                    <NavbarButton variant="primary" className="w/full">
-                      Join Beta
-                    </NavbarButton>
-                  </ModalTrigger>
-                  <ModalBody>
-                    <ModalContent>
-                      <h3 className="text-xl font-semibold text-black dark:text-white">
-                        Join the private beta
-                      </h3>
-                      <p className="mt-1 text-sm text-neutral-600 dark:text-neutral-400">
-                        Enter your details below and we’ll notify you.
-                      </p>
-                      <div className="mt-6">
-                        <BetaSignupForm />
-                      </div>
-                    </ModalContent>
-                  </ModalBody>
-                </Modal>
-              </div>
-            </div>
           </MobileNavMenu>
         </MobileNav>
       </Navbar>
@@ -168,9 +118,9 @@ export function ManifestoPageClient() {
           </div>
         </div>
       </main>
-      <div className="w-full -z-10 relative mt-15 md:-mt-50">
-        <Footer />
-      </div>
+      <div className="md:-z-10 bg-white flex flex-col items-center justify-center relative w-full gap-8 dark:hidden mt-[100em] md:mt-[25em]">
+      <Footer />
+        </div>
     </>
   );
 }
